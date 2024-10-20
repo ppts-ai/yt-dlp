@@ -5,4 +5,4 @@ RUN wget -O /app/yt-dlp  https://github.com/yt-dlp/yt-dlp/releases/download/2024
 
 
 RUN chmod 777 /app/yt-dlp
-CMD [ "/app/yt-dlp" ]
+ENTRYPOINT [ "/app/yt-dlp" ]
